@@ -22,6 +22,7 @@ const MainContainer = ({
       minH: "100vh",
       direction: "column",
       align: "center",
+      color: "white",
     },
     innerSX: {
       w: "full",
