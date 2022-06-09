@@ -11,8 +11,13 @@ const CustomToast = ({ title, desc }: Record<"title" | "desc", string>) => {
       px={6}
       py={4}
     >
-      <Heading fontSize="lg">{title}</Heading>
-      <Text fontSize="md" textAlign="center" letterSpacing="0.04em">
+      <Heading fontSize={{ base: "md", md: "lg" }}>{title}</Heading>
+      <Text
+        fontSize={{ base: "xs", md: "md" }}
+        textAlign="center"
+        letterSpacing="0.04em"
+        color="gray.300"
+      >
         {desc}
       </Text>
     </Box>
