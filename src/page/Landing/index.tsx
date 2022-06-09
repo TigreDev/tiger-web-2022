@@ -35,19 +35,6 @@ const Landing = () => {
       innerSX={{}}
     >
       <Name />
-      <Text
-        position="absolute"
-        bottom={4}
-        right={4}
-        fontFamily="encode"
-        letterSpacing="0.03em"
-        fontSize="0.750rem"
-      >
-        art by{" "}
-        <Link href="https://www.instagram.com/lais.draws/" target="_blank">
-          @lais.draws
-        </Link>
-      </Text>
     </MainContainer>
   );
 };
