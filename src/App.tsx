@@ -1,3 +1,9 @@
-import { ChakraProvider, theme } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "./designSystem/theme";
+import Landing from "./page/Landing";
 
-export const App = () => <ChakraProvider theme={theme}></ChakraProvider>;
+export const App = () => (
+  <ChakraProvider theme={theme}>
+    <Landing />
+  </ChakraProvider>
+);
