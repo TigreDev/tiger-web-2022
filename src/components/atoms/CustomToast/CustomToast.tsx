@@ -16,7 +16,6 @@ const CustomToast = ({ title, desc }: Record<"title" | "desc", string>) => {
         fontSize={{ base: "xs", md: "md" }}
         textAlign="center"
         letterSpacing="0.04em"
-        color="gray.300"
       >
         {desc}
       </Text>
