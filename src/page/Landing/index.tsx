@@ -1,4 +1,4 @@
-import { useToast, Text, Link } from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
 import { useEffect } from "react";
 import CustomToast from "../../components/atoms/CustomToast/CustomToast";
 import MainContainer from "../../components/atoms/MainContainer";

@@ -1,4 +1,4 @@
-import { Stack, Box, Heading } from "@chakra-ui/react";
+import { Stack, Box, Heading, Text, Link } from "@chakra-ui/react";
 
 const Name = () => {
   return (
