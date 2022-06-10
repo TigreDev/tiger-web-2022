@@ -19,14 +19,14 @@ const MainContainer = ({
 }: MainContainerProps) => {
   const defaultTheme: MainContainerStyles = {
     mainSX: {
-      minH: "100vh",
+      minH: { base: "-webkit-fill-available", md: "100vh" },
       direction: "column",
       align: "center",
       color: "white",
     },
     innerSX: {
       w: "full",
-      minH: "100vh !important",
+      minH: { md: "100vh" },
       maxW: "1140px",
       flexDir: "column",
       align: "center",

@@ -1,4 +1,4 @@
-import { useToast } from "@chakra-ui/react";
+import { ToastPosition, useBreakpointValue, useToast } from "@chakra-ui/react";
 import { useEffect } from "react";
 import CustomToast from "../../components/atoms/CustomToast/CustomToast";
 import MainContainer from "../../components/atoms/MainContainer";
@@ -6,11 +6,15 @@ import Name from "../../components/molecules/Name/Name";
 
 const Landing = () => {
   const toast = useToast();
+  const position = useBreakpointValue({
+    base: "bottom-left",
+    md: "top-left",
+  }) as ToastPosition;
 
   useEffect(() => {
     setTimeout(() => {
       toast({
-        position: "top-left",
+        position,
         render: () => (
           <CustomToast
             title="This website is under development"

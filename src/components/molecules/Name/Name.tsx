@@ -4,7 +4,7 @@ const Name = () => {
   return (
     <Stack
       justify={{ md: "center" }}
-      mt={{ base: 40, md: 0 }}
+      mt={{ base: 20, md: 0 }}
       minH={{ md: "100vh" }}
       alignSelf={{ base: "start", md: "initial" }}
     >

@@ -15,6 +15,14 @@ const theme = extendTheme({
       },
     },
   },
+  styles: {
+    global: {
+      "html, body, #root": {
+        h: "100%",
+        minHeight: "100%",
+      },
+    },
+  },
 });
 
 export default theme;
