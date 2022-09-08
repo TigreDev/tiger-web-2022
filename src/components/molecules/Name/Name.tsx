@@ -9,11 +9,12 @@ const Name = () => {
       alignSelf={{ base: "start", md: "initial" }}
     >
       <Box color="white">
-        <Heading fontSize={{ base: "3rem", md: "6rem", lg: "10rem" }}>
+        <Heading fontSize={{ base: "3rem", md: "6rem", lg: "10rem" }} >
           Ruben Tigre
         </Heading>
         <Heading
           fontSize={{ base: "1rem", md: "xl", lg: "4xl" }}
+          textShadow={{base: "4px 4px black", md: "8px 8px black"}}
           ml={{ base: 0.5, lg: 2 }}
         >
           Frontend developer
